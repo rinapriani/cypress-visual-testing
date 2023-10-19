@@ -1,0 +1,31 @@
+{
+  "total": 1,
+  "totalPassed": 0,
+  "totalFailed": 1,
+  "totalSuites": 1,
+  "suites": [
+    {
+      "name": "TC001-imagediff.cy.js",
+      "path": "cypress\\e2e\\3-image-diff-testing\\TC001-imagediff.cy.js",
+      "tests": [
+        {
+          "status": "fail",
+          "name": "TC001-imagediff.cy-google",
+          "percentage": 0.14849752574206465,
+          "failureThreshold": 0,
+          "specPath": "cypress\\e2e\\3-image-diff-testing\\TC001-imagediff.cy.js",
+          "specFilename": "TC001-imagediff.cy.js",
+          "baselinePath": "visual-test\\image-test\\cypress-visual-screenshots\\baseline\\TC001-imagediff.cy-google.png",
+          "diffPath": "visual-test\\image-test\\cypress-visual-screenshots\\diff\\TC001-imagediff.cy-google.png",
+          "comparisonPath": "visual-test\\image-test\\cypress-visual-screenshots\\comparison\\TC001-imagediff.cy-google.png"
+        }
+      ]
+    }
+  ],
+  "startedAt": "2023-10-19T06:13:24.425Z",
+  "endedAt": "2023-10-19T06:18:46.731Z",
+  "duration": 264815,
+  "browserName": "chrome",
+  "browserVersion": "118.0.5993.88",
+  "cypressVersion": "13.3.2"
+}
